@@ -1,4 +1,3 @@
-import SectionTitle from "../Components/sectionTitle";
 import "../Styles/contact.css";
 import { FaLocationArrow } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -11,7 +10,11 @@ const Contact = () => {
   return (
     <section>
       <div className="container">
-        <SectionTitle title="Contact Me" />
+        <div className="section__title">
+          <h2>Contact</h2>
+          <div className="big__bar"></div>
+          <div className="small__bar"></div>
+        </div>
       </div>
       <div className="contact_info">
         <div className="container">

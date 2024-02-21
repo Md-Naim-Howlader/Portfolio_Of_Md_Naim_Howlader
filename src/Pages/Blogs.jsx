@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import SectionTitle from "../Components/sectionTitle";
+
 import "../Styles/blogs.css";
 const Blogs = () => {
   useEffect(() => {
@@ -8,7 +8,11 @@ const Blogs = () => {
   return (
     <section>
       <div className="container">
-        <SectionTitle title="Blogs" />
+        <div className="section__title">
+          <h2>Blogs</h2>
+          <div className="big__bar"></div>
+          <div className="small__bar"></div>
+        </div>
         <div className="blogs">
           <h2>Comming Soon...</h2>
         </div>

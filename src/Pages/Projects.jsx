@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import SectionTitle from "../Components/sectionTitle";
 import projectsData from "../Data/projects.json";
 import Project from "../Components/Project/Project";
 
@@ -11,7 +10,11 @@ const Projects = () => {
   return (
     <section>
       <div className="container">
-        <SectionTitle title="Projects" />
+        <div className="section__title">
+          <h2>Projects</h2>
+          <div className="big__bar"></div>
+          <div className="small__bar"></div>
+        </div>
         <div className="projects">
           {projectsData.map((project) => (
             <Project key={project.id} project={project} />
