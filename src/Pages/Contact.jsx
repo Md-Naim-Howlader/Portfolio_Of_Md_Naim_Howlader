@@ -11,7 +11,7 @@ const Contact = () => {
     <section>
       <div className="container">
         <div className="section__title">
-          <h2>Contact</h2>
+          <h2 style={{color: "#111"}}>Contact</h2>
           <div className="big__bar"></div>
           <div className="small__bar"></div>
         </div>
