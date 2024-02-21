@@ -1,0 +1,107 @@
+.contact_info {
+  padding: 50px 0;
+}
+.contact_info .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+}
+.contact_details h3 {
+  font-size: 1.5rem;
+  font-family: var(--roboto_font);
+}
+.contact_details ul li {
+  font-family: var(--roboto_font);
+}
+.contact_details p {
+  font-size: 1.25rem;
+  line-height: 1.7rem;
+  font-family: var(--roboto_font);
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.contact_details .contact_link ul li {
+  font-size: 20px;
+}
+.icon_link {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+}
+.icon_link a {
+  font-size: 25px;
+  color: #212529;
+  transition: 0.3s;
+}
+.icon_link a:hover {
+  color: #198754;
+}
+.contact__form {
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 8px;
+}
+.input_item {
+  margin-bottom: 5px;
+}
+
+.contact__form form input,
+.contact__form form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.39rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background: #fff;
+  border: 2px solid #dee;
+  font-size: 17px;
+  border-radius: 6px;
+  resize: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.contact__form form {
+  margin-top: 10px;
+}
+.contact__form form input:focus,
+.contact__form form textarea:focus {
+  border-color: rgb(25, 135, 84, 0.5);
+  color: #212529;
+  background: #fff;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.4);
+}
+.contact__form form label {
+  margin: 5px 0;
+  display: inline-block;
+}
+.contact__form form button {
+  border: none;
+  background: #198754;
+  padding: 12px 17px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 100%;
+  transition: all 0.3s;
+}
+.contact__form form button:hover {
+  background: #146d43;
+}
+
+@media screen and (max-width: 992px) {
+  .contact_info .container {
+    grid-template-columns: 1fr;
+  }
+  .contact_details {
+    order: 2;
+  }
+  .contact__form {
+    order: 1;
+  }
+}

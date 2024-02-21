@@ -1,0 +1,60 @@
+.skills__section {
+  background: url("../assets/images/skills/skill-bg.svg") no-repeat;
+  background-size: cover;
+}
+.skills {
+  width: 79%;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 100px 0;
+}
+
+.skill__item {
+  width: 200px;
+  height: 100px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-bottom: 0.2rem;
+  padding-top: 1rem;
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+.skill__item img {
+  width: 50px;
+  height: auto;
+}
+.skill__item h6 {
+  font-size: 0.875rem;
+  margin-top: 0.4rem;
+  font-family: "Segoe UI", var(--roboto_font), sans-serif;
+  font-weight: 600;
+  color: #212529;
+}
+
+@media screen and (max-width: 992px) {
+  .skills {
+    width: 50%;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .skills {
+    width: 100%;
+  }
+  .skill__item {
+    display: block;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .skill__item {
+    display: block;
+    width: 100%;
+  }
+}

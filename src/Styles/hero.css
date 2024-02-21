@@ -1,0 +1,52 @@
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  height: 100vh;
+}
+
+.hero__container .hero__content h1 {
+  color: #1f6d4f;
+  font-family: Montserreat, sans-serif;
+  font-size: 3rem;
+}
+.hero__container .hero__content h3 {
+  color: rgb(6, 24, 18);
+  font-family: Raleway, sans-serif;
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+.hero__container .hero__content h2 {
+  color: #061812;
+  font-family: Raleway, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.hero__content .codeSign {
+  position: relative;
+  top: 2px;
+  font-weight: 600;
+  color: #061812;
+  z-index: -1;
+}
+
+@media screen and (max-width: 992px) {
+  .hero__container {
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero__container .hero__content h2 {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .hero__image {
+    display: none;
+  }
+  .hero__container .hero__content h2 {
+    font-size: 1.3rem;
+  }
+}

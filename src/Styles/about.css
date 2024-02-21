@@ -1,0 +1,35 @@
+.about_me {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 0;
+  color: #221f1f;
+}
+.about_me h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-family: var(--roboto_font);
+  font-weight: 500;
+}
+.about_me p {
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  font-family: var(--roboto_font);
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.hire_btn {
+  padding: 8px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: #1f6d4f;
+  color: #fff;
+  font-family: var(--roboto_font);
+  transition: 0.3s linear;
+  font-size: 1.2rem;
+}
+.hire_btn:hover {
+  background-color: #1f6d4f;
+  color: #fff;
+}
