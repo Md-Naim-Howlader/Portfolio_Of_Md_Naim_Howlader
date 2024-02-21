@@ -6,7 +6,7 @@ import "../../Styles/header.css";
 import { useState } from "react";
 import DarkMode from "../../Components/DarkMode";
 import { NavLink } from "react-router-dom";
-
+import logo from "../../assets/images/logo/logo_2.png";
 const Header = () => {
   const [showNavbar, setShowNavbar] = useState(false);
   const handleShowNavbar = () => {
@@ -17,7 +17,7 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <div className="logo">
-          <img src="../../../public/logo_2.png" alt="logo" />
+          <img src={logo} alt="logo" />
         </div>
         <nav className="navbar">
           <div className={`nav-elements  ${showNavbar && "active"}`}>

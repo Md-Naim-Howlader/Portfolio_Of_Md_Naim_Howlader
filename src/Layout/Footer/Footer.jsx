@@ -2,13 +2,14 @@ import { NavLink } from "react-router-dom";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import "../../Styles/footer.css";
+import logo from "../../assets/images/logo/logo_2.png";
 const Footer = () => {
   return (
     <footer className="footer_section">
       <div className="container">
         <div className="footer_top">
           <div className="logo">
-            <img src="../../../public/logo_2.png" alt="logo" />
+            <img src={logo} alt="logo" />
           </div>
           <div className="footer_nav">
             <nav>
