@@ -11,7 +11,7 @@ const RecentProjects = () => {
     <section>
       <div className="container">
       <div className="section__title">
-          <h2>Recent Projects</h2>
+          <h2 style={{color: "#111"}}>Recent Projects</h2>
           <div className="big__bar"></div>
           <div className="small__bar"></div>
         </div>
