@@ -1,10 +1,13 @@
 import "./App.css";
+import DarkModeProvider from "./Context/DarkModeContext";
 import MainLayout from "./Layout/MainLayout";
 
 function App() {
   return (
     <>
-      <MainLayout />
+      <DarkModeProvider>
+        <MainLayout />
+      </DarkModeProvider>
     </>
   );
 }

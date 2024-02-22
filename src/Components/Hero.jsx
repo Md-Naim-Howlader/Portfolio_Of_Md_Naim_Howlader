@@ -3,10 +3,9 @@ import { LiaLessThanSolid } from "react-icons/lia";
 import { LiaGreaterThanSolid } from "react-icons/lia";
 import { TbSlash } from "react-icons/tb";
 import "../Styles/hero.css";
-
 const Hero = () => {
   return (
-    <section className="hero__section">
+    <section className="hero__section ">
       <div className="container">
         <div className="hero__container">
           <div className="hero__content">

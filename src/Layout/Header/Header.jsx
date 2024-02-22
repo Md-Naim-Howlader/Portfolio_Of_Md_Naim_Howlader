@@ -3,10 +3,11 @@ import { IoClose } from "react-icons/io5";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import "../../Styles/header.css";
-import { useState } from "react";
 import DarkMode from "../../Components/DarkMode";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/logo/logo_2.png";
+import { useState } from "react";
+
 const Header = () => {
   const [showNavbar, setShowNavbar] = useState(false);
   const handleShowNavbar = () => {

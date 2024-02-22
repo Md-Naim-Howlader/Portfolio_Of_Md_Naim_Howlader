@@ -1,13 +1,18 @@
-import { useState } from "react";
-import { IoMoonOutline } from "react-icons/io5";
+import { useContext } from "react";
+import { BsMoonStars } from "react-icons/bs";
 import { LuSunMoon } from "react-icons/lu";
-import { darkMode } from "../Styles/darkmode.module.css";
+import { darkAndMode } from "../Styles/darkmode.module.css";
+import { DarkModeContext } from "../Context/DarkModeContext";
 const DarkMode = () => {
-  const [state, setState] = useState(false);
+  const { darkMode, setDarkMode } = useContext(DarkModeContext);
   return (
-    <div className={darkMode}>
-      <button onClick={() => setState(!state)} title="Dark and Light Mode">
-        {state ? <LuSunMoon /> : <IoMoonOutline />}
+    <div className={darkAndMode}>
+      <button onClick={() => setDarkMode(!darkMode)}>
+        {darkMode ? (
+          <LuSunMoon title="Set Light Mode" />
+        ) : (
+          <BsMoonStars title="Set Dark Mode" />
+        )}
       </button>
     </div>
   );

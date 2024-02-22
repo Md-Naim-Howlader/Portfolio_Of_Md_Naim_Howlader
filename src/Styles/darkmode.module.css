@@ -1,12 +1,12 @@
-.darkMode button {
+.darkAndMode button {
   background: transparent;
   border: none;
-  font-size: 20px;
+  font-size: 23px;
   cursor: pointer;
 }
 
 @media screen and (max-width: 992px) {
-  .darkMode {
+  .darkAndMode {
     display: flex;
     justify-content: flex-end;
   }

@@ -50,9 +50,9 @@
   font-size: 1.1rem;
   font-weight: 500;
   font-family: var(--roboto_font);
+  color: #3e4957;
   text-decoration: none;
   font-weight: 500;
-  color: #3e4957;
   transition: 0.2s linear;
 }
 .nav-elements ul li a:hover {
@@ -84,8 +84,8 @@
   justify-content: center;
 }
 .social-icons ul li a {
-  color: #1f6d4f;
   font-size: 20px;
+  color: #1f6d4f;
 }
 .social-icons ul li:first-child {
   margin-right: 20px;

@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import Hero from "./Hero";
-import RecentProjects from "./RecentProjects";
-import Skills from "./Skills";
+import Hero from "../Components/Hero";
+import RecentProjects from "../Components/RecentProjects";
+import Skills from "../Components/Skills";
 
 const Home = () => {
   useEffect(() => {
