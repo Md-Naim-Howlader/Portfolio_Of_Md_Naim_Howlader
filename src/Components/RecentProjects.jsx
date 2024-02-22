@@ -1,6 +1,6 @@
 import { useState } from "react";
 import projectsData from "../Data/projects.json";
-import Project from "./Project/Project";
+import Project from "../Components/Project/Project";
 import { RxDoubleArrowRight } from "react-icons/rx";
 import { NavLink } from "react-router-dom";
 

@@ -12,7 +12,7 @@ const About = () => {
     <section>
       <div className="container">
         <div className="section__title">
-          <h2>About Me</h2>
+          <h2 style={{color: "#111"}}>About Me</h2>
           <div className="big__bar"></div>
           <div className="small__bar"></div>
         </div>
