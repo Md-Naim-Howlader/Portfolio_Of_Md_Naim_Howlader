@@ -82,7 +82,7 @@ const Header = () => {
             </div>
           </div>
         </nav>
-{/*         <DarkMode /> 
+      <DarkMode /> 
         <div style={{ display: "flex", justifyContent: "flex-end" }}>
           <button className="menu-icon" onClick={handleShowNavbar}>
             {showNavbar ? <IoClose style={{ fontSize: "40px" }} /> : <FaBars />}
