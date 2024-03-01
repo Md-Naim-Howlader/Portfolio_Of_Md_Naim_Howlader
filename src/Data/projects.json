@@ -25,6 +25,14 @@
   },
   {
     "id": 3,
+    "siteName": "TechVantage - Tech Company Website",
+    "image": "images/projects/TechVantage.png",
+    "technology": ["HTML5", "CSS3"],
+    "liveSite": "https://tech-vantage-using-css.vercel.app/",
+    "sourceCode": "https://github.com/Md-Naim-Howlader/TechVantage_using-CSS"
+  },
+  {
+    "id": 4,
     "siteName": "Mentors - Online learing Platform",
     "image": "images/projects/mentor.png",
     "technology": ["HTML5", "CSS3", "Bootstrap 5"],
