@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "siteName": "ByteBaazar E-commerce site",
+    "image": "images/projects/byteBazar.png",
+    "technology": ["HTML5", "CSS3", "React.js"],
+    "liveSite": "https://byte-bazar-e-commerce.vercel.app/",
+    "sourceCode": "https://github.com/Md-Naim-Howlader/ByteBazar-E-commerce"
+  },
+  {
+    "id": 2,
     "siteName": "Country App",
     "image": "images/projects/country_app.png",
     "technology": ["HTML5", "CSS3", "JavaScript", "React.js", "API"],
@@ -8,7 +16,7 @@
     "sourceCode": "https://github.com/Md-Naim-Howlader/Country_App_Using_React.js"
   },
   {
-    "id": 2,
+    "id": 3,
     "siteName": "JobNexify - Job Portal Site",
     "image": "images/projects/jobNexify.png",
     "technology": [
@@ -24,7 +32,7 @@
     "sourceCode": "https://github.com/Md-Naim-Howlader/JobNexify"
   },
   {
-    "id": 3,
+    "id": 4,
     "siteName": "TechVantage - Tech Company Website",
     "image": "images/projects/TechVantage.png",
     "technology": ["HTML5", "CSS3"],
@@ -32,7 +40,7 @@
     "sourceCode": "https://github.com/Md-Naim-Howlader/TechVantage_using-CSS"
   },
   {
-    "id": 4,
+    "id": 5,
     "siteName": "Mentors - Online learing Platform",
     "image": "images/projects/mentor.png",
     "technology": ["HTML5", "CSS3", "Bootstrap 5"],
