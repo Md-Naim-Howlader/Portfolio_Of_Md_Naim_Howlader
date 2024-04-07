@@ -3,7 +3,7 @@ import { IoClose } from "react-icons/io5";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import "../../Styles/header.css";
-// import DarkMode from "../../Components/DarkMode";
+import DarkMode from "../../Components/DarkMode";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/logo/logo_2.png";
 import { useState } from "react";
@@ -82,7 +82,7 @@ const Header = () => {
             </div>
           </div>
         </nav>
-{/*         <DarkMode /> */}
+      <DarkMode /> 
         <div style={{ display: "flex", justifyContent: "flex-end" }}>
           <button className="menu-icon" onClick={handleShowNavbar}>
             {showNavbar ? <IoClose style={{ fontSize: "40px" }} /> : <FaBars />}
