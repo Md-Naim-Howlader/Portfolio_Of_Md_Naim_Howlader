@@ -5,7 +5,7 @@
     "image": "images/projects/byteBazar.png",
     "technology": ["HTML5", "CSS3", "React.js"],
     "liveSite": "https://byte-bazar-e-commerce.vercel.app/",
-    "sourceCode": "https://github.com/Md-Naim-Howlader/ByteBazar-E-commerce"
+    "sourceCode": "https://github.com/Md-Naim-Howlader/byte-bazar-e-commerce"
   },
   {
     "id": 2,
@@ -41,10 +41,10 @@
   },
   {
     "id": 5,
-    "siteName": "Mentors - Online learing Platform",
-    "image": "images/projects/mentor.png",
+    "siteName": "E-learning - Online learing Platform",
+    "image": "images/projects/E-learning.png",
     "technology": ["HTML5", "CSS3", "Bootstrap 5"],
-    "liveSite": "https://mentor-webiste.vercel.app/",
-    "sourceCode": "https://github.com/Md-Naim-Howlader/Mentor-webiste"
+    "liveSite": "https://e-learning-bay-phi.vercel.app/",
+    "sourceCode": "https://github.com/Md-Naim-Howlader/E-learning"
   }
 ]

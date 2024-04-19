@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import projectsData from "../Data/projects.json";
 import Project from "../Components/Project/Project";
 import { RxDoubleArrowRight } from "react-icons/rx";
