@@ -5,7 +5,7 @@ import { RxDoubleArrowRight } from "react-icons/rx";
 import { NavLink } from "react-router-dom";
 
 const RecentProjects = () => {
-  const [projects] = useState(projectsData.slice(-5));
+  const [projects] = useState(projectsData.slice(0, 6));
   return (
     <section>
       <div className="container">

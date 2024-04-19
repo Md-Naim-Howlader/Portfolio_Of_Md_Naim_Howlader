@@ -7,16 +7,9 @@
     "liveSite": "https://byte-bazar-e-commerce.vercel.app/",
     "sourceCode": "https://github.com/Md-Naim-Howlader/byte-bazar-e-commerce"
   },
+
   {
     "id": 2,
-    "siteName": "Country App",
-    "image": "images/projects/country_app.png",
-    "technology": ["HTML5", "CSS3", "JavaScript", "React.js", "API"],
-    "liveSite": "https://country-app-using-react-js.vercel.app/",
-    "sourceCode": "https://github.com/Md-Naim-Howlader/Country_App_Using_React.js"
-  },
-  {
-    "id": 3,
     "siteName": "JobNexify - Job Portal Site",
     "image": "images/projects/jobNexify.png",
     "technology": [
@@ -32,6 +25,14 @@
     "sourceCode": "https://github.com/Md-Naim-Howlader/JobNexify"
   },
   {
+    "id": 3,
+    "siteName": "Country App",
+    "image": "images/projects/country_app.png",
+    "technology": ["HTML5", "CSS3", "JavaScript", "React.js", "API"],
+    "liveSite": "https://country-app-using-react-js.vercel.app/",
+    "sourceCode": "https://github.com/Md-Naim-Howlader/Country_App_Using_React.js"
+  },
+  {
     "id": 4,
     "siteName": "TechVantage - Tech Company Website",
     "image": "images/projects/TechVantage.png",
@@ -41,10 +42,18 @@
   },
   {
     "id": 5,
-    "siteName": "E-learning - Online learing Platform",
+    "siteName": "E-learning - Online learning Platform",
     "image": "images/projects/E-learning.png",
     "technology": ["HTML5", "CSS3", "Bootstrap 5"],
     "liveSite": "https://e-learning-bay-phi.vercel.app/",
     "sourceCode": "https://github.com/Md-Naim-Howlader/E-learning"
+  },
+  {
+    "id": 6,
+    "siteName": "Finix - business site",
+    "image": "images/projects/finix.png",
+    "technology": ["HTML5", "CSS3", "Bootstrap 5"],
+    "liveSite": "https://13-finix-template.vercel.app/",
+    "sourceCode": "https://github.com/Md-Naim-Howlader/13.Finix_Template"
   }
 ]
