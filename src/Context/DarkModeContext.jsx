@@ -6,8 +6,8 @@ export const DarkModeContext = createContext(null);
 const DarkModeProvider = ({ children }) => {
   const [darkMode, setDarkMode] = useState(getModeFromLocalStorage());
   useEffect(() => {
-    localStorage.setItem("darkmode", darkMode);
-  });
+    localStorage.setItem("darkmode", JSON.stringify(darkMode));
+  }, [darkMode]);
   return (
     <DarkModeContext.Provider value={{ darkMode, setDarkMode }}>
       {children}

@@ -1,5 +1,5 @@
 export const getModeFromLocalStorage = () => {
-  const data = localStorage.getItem("darkmode");
-  console.log(data);
-  return data;
+  let data = localStorage.getItem("darkmode");
+  data = JSON.parse(data);
+  return data === true;
 };
