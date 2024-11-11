@@ -21,6 +21,9 @@ h6 {
   margin-bottom: 0.5rem;
   margin-top: 0px;
 }
+.bg-black {
+  background-color: #333;
+}
 .text-white {
   color: #fff;
 }
@@ -118,7 +121,6 @@ body a {
   padding: 3rem 0;
 }
 .project {
-  background: #fff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 6px;
 }
@@ -135,12 +137,10 @@ body a {
 .project_body > h3 {
   font-family: var(--roboto_font);
   font-size: 18px;
-  color: #221f1f;
 }
 .project_body .technology h3 {
   font-family: var(--roboto_font);
   font-size: 17px;
-  color: #221f1f;
 }
 .project_body .technology .tech_btn {
   display: flex;
@@ -150,7 +150,7 @@ body a {
 .project_body .technology .tech_btn button {
   padding: 2px 7px;
   border: 2px solid #1f6d4f;
-  color: #1f6d4f;
+  /* color: #1f6d4f; */
   font-family: var(--roboto_font);
   border-radius: 51px;
   background: transparent;

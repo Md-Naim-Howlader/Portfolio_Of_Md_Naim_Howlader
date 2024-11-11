@@ -24,7 +24,13 @@ const Header = () => {
           <img src={logo} alt="logo" />
         </div>
         <nav className={darkMode ? "navbar dark-mode" : "navbar white-mode"}>
-          <div className={`nav-elements  ${showNavbar && "active"}`}>
+          <div
+            className={
+              darkMode
+                ? `nav-elements dark-mode  ${showNavbar && "active"}`
+                : `nav-elements white-mode  ${showNavbar && "active"}`
+            }
+          >
             <div>
               <ul>
                 <li>
@@ -76,7 +82,14 @@ const Header = () => {
             </div>
             <div className="social-icons">
               <div onClick={handleShowNavbar} className="resumeBtn">
-                <button className="btn" onClick={handleShowNavbar}>
+                <button
+                  className={
+                    darkMode
+                      ? "bg-green-mode btn text-white"
+                      : "bg-dark-green-mode btn text-white"
+                  }
+                  onClick={handleShowNavbar}
+                >
                   Resume
                 </button>
               </div>
