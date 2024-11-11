@@ -170,6 +170,10 @@ body a {
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+  .project img {
+    border-radius: 6px 6px 0 0;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 768px) {
   .section__title {
