@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { BsMoonStars } from "react-icons/bs";
+import { BsFillMoonStarsFill } from "react-icons/bs";
 import { LuSunMoon } from "react-icons/lu";
 import { darkAndMode } from "../Styles/darkmode.module.css";
 import { DarkModeContext } from "../Context/DarkModeContext";
@@ -14,7 +14,7 @@ const DarkMode = () => {
         {darkMode ? (
           <LuSunMoon title="Set Light Mode" />
         ) : (
-          <BsMoonStars title="Set Dark Mode" />
+          <BsFillMoonStarsFill title="Set Dark Mode" />
         )}
       </button>
     </div>
