@@ -1,22 +1,30 @@
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "../Styles/about.css";
+import { DarkModeContext } from "../Context/DarkModeContext";
 
 const About = () => {
+  const { darkMode } = useContext(DarkModeContext);
   const navigate = useNavigate();
   useEffect(() => {
     document.title = "About Me | Md. Naim Howlader";
   }, []);
 
   return (
-    <section>
+    <section className={darkMode ? "dark-mode" : "white-mode"}>
       <div className="container">
         <div className="section__title">
-          <h2 style={{color: "#111"}}>About Me</h2>
+          <h2 className={darkMode ? "text-white" : "txt-black-mode"}>
+            About Me
+          </h2>
           <div className="big__bar"></div>
           <div className="small__bar"></div>
         </div>
-        <div className="about_me">
+        <div
+          className={
+            darkMode ? "about_me text-white" : "about_me txt-black-mod"
+          }
+        >
           <h2>Md. Naim Howlader</h2>
           <p>
             Hello there! I am <strong>Md Naim Howlader</strong>, a Frontend Web

@@ -1,34 +1,37 @@
 import heroImg from "../assets/images/coder.png";
-import { LiaLessThanSolid } from "react-icons/lia";
-import { LiaGreaterThanSolid } from "react-icons/lia";
-import { TbSlash } from "react-icons/tb";
+
 import "../Styles/hero.css";
+import { useContext } from "react";
+import { DarkModeContext } from "../Context/DarkModeContext";
 const Hero = () => {
+  const { darkMode } = useContext(DarkModeContext);
   return (
-    <section className="hero__section ">
+    <section
+      className={
+        darkMode ? "hero__section dark-mode" : "hero__section white-mode"
+      }
+    >
       <div className="container">
         <div className="hero__container">
           <div className="hero__content">
-            <h3>Hey there, My name is</h3>
-            <h1>Md. Naim Howlader</h1>
-            <h2>
-              <LiaLessThanSolid className="codeSign" />
+            <h3 className={darkMode ? "txt-white-mode" : "txt-black-mode"}>
+              Hey there, My name is
+            </h3>
+            <h1 className={darkMode ? "txt-green-mode" : "txt-dark-green-mode"}>
+              Md. Naim Howlader
+            </h1>
+            <h2 className={darkMode ? "txt-white-mode" : "txt-black-mode"}>
               Front-end Web Developer{" "}
-              <TbSlash
-                className="codeSign"
-                style={{ position: "relative", top: "5px", zIndex: "-1" }}
-              />
-              <LiaGreaterThanSolid
-                className="codeSign"
-                style={{ position: "relative", top: "5px", zIndex: "-1" }}
-              />
             </h2>
             <button
-              className="btn"
+              className={
+                darkMode ? "bg-green-mode btn " : "bg-dark-green-mode btn"
+              }
               style={{ marginTop: "16px" }}
               title="Resume "
             >
               <a
+                className="text-white"
                 href="https://drive.google.com/file/d/1ARG3vAVocLcxdp0J36T1p_Bkahe1Tf7g/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"

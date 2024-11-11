@@ -7,7 +7,10 @@ const DarkMode = () => {
   const { darkMode, setDarkMode } = useContext(DarkModeContext);
   return (
     <div className={darkAndMode}>
-      <button onClick={() => setDarkMode(!darkMode)}>
+      <button
+        className={darkMode ? "txt-white-mode" : "txt-green-mode"}
+        onClick={() => setDarkMode(!darkMode)}
+      >
         {darkMode ? (
           <LuSunMoon title="Set Light Mode" />
         ) : (

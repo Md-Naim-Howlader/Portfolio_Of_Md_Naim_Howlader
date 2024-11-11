@@ -1,5 +1,4 @@
 .header {
-  background: #fff;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16);
   padding: 10px 0;
   position: sticky;
@@ -18,7 +17,7 @@
 .navbar {
   height: 60px;
   position: relative;
-  background: #fff;
+
   display: grid;
   align-items: center;
 }
@@ -26,7 +25,7 @@
   border: none;
   background: transparent;
   display: none;
-  color: #1f6d4f;
+  color: #28a745;
   font-size: 1.8rem;
   text-align: right;
 }
@@ -50,16 +49,16 @@
   font-size: 1.1rem;
   font-weight: 500;
   font-family: var(--roboto_font);
-  color: #3e4957;
   text-decoration: none;
   font-weight: 500;
   transition: 0.2s linear;
 }
 .nav-elements ul li a:hover {
-  color: #1f6d4f;
+  color: #40b976;
+  font-weight: 600;
 }
 .nav-elements ul li a.active {
-  color: #1f6d4f;
+  color: #40b976;
   font-weight: 600;
   position: relative;
 }
@@ -85,7 +84,7 @@
 }
 .social-icons ul li a {
   font-size: 20px;
-  color: #1f6d4f;
+  color: #40b976;
 }
 .social-icons ul li:first-child {
   margin-right: 20px;

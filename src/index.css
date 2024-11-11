@@ -6,9 +6,7 @@
   box-sizing: border-box;
   list-style: none;
 }
-body {
-  background: #fff;
-}
+
 :root {
   --roboto_font: Roboto, system-ui, sans-serif;
   --text_white: white;
@@ -23,6 +21,41 @@ h6 {
   margin-bottom: 0.5rem;
   margin-top: 0px;
 }
+.text-white {
+  color: #fff;
+}
+.white-mode {
+  background-color: #fff !important;
+  background-repeat: no-repeat;
+  border-color: #dee !important;
+}
+.dark-mode {
+  background-color: #0e2a47 !important;
+  background-repeat: no-repeat;
+  border-color: #5a6b6b !important;
+}
+.bg-green-mode {
+  background: #40b976;
+}
+.bg-dark-green-mode {
+  background: #1f6d4f;
+}
+
+.txt-white-mode {
+  color: #fff;
+}
+.txt-dark-mode {
+  color: #3e4957;
+}
+.txt-green-mode {
+  color: #40b976;
+}
+.txt-dark-green-mode {
+  color: #1f6d4f;
+}
+.txt-black-mode {
+  color: #221f1f;
+}
 
 img {
   max-width: 100%;
@@ -30,7 +63,6 @@ img {
 }
 body a {
   text-decoration: none;
-  color: var(--text_white);
 }
 .container {
   max-width: 1140px;
@@ -38,8 +70,6 @@ body a {
   padding: 0 10px;
 }
 .btn {
-  background-color: #1f6d4f;
-  color: var(--text_white);
   font-size: 0.875rem;
   font-weight: 500;
   border: none;
@@ -73,7 +103,6 @@ body a {
   background: rgb(64, 185, 118);
 }
 .section__title h2 {
-  color: #221f1f;
   font-size: 1.6rem;
   font-family: var(--roboto_font);
   font-weight: 500;

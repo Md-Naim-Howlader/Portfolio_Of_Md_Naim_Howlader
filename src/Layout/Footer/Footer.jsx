@@ -3,9 +3,16 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import "../../Styles/footer.css";
 import logo from "../../assets/images/logo/logo_2.png";
+import { useContext } from "react";
+import { DarkModeContext } from "../../Context/DarkModeContext";
 const Footer = () => {
+  const { darkMode } = useContext(DarkModeContext);
   return (
-    <footer className="footer_section">
+    <footer
+      className={
+        darkMode ? "footer_section dark-mode" : "footer_section white-mode"
+      }
+    >
       <div className="container">
         <div className="footer_top">
           <div className="logo">
@@ -15,19 +22,44 @@ const Footer = () => {
             <nav>
               <ul>
                 <li>
-                  <NavLink to={"/"}>Home</NavLink>
+                  <NavLink
+                    className={darkMode ? "txt-white-mode" : "txt-dark-mode"}
+                    to={"/"}
+                  >
+                    Home
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/about"}>About Me</NavLink>
+                  <NavLink
+                    className={darkMode ? "txt-white-mode" : "txt-dark-mode"}
+                    to={"/about"}
+                  >
+                    About Me
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/projects"}>Projects</NavLink>
+                  <NavLink
+                    className={darkMode ? "txt-white-mode" : "txt-dark-mode"}
+                    to={"/projects"}
+                  >
+                    Projects
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/blogs"}>Blogs</NavLink>
+                  <NavLink
+                    className={darkMode ? "txt-white-mode" : "txt-dark-mode"}
+                    to={"/blogs"}
+                  >
+                    Blogs
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/contact"}>Contact</NavLink>
+                  <NavLink
+                    className={darkMode ? "txt-white-mode" : "txt-dark-mode"}
+                    to={"/contact"}
+                  >
+                    Contact
+                  </NavLink>
                 </li>
               </ul>
             </nav>
@@ -56,7 +88,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="copyright_area">
-          <p>Copyright &copy; 2024 Md. Naim Howlader</p>
+          <p className={darkMode ? "text-white" : "txt-dark-mode"}>
+            Copyright &copy; 2024 Md. Naim Howlader
+          </p>
         </div>
       </div>
     </footer>

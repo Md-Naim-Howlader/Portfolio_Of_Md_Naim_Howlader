@@ -6,46 +6,69 @@ import "../../Styles/header.css";
 import DarkMode from "../../Components/DarkMode";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/logo/logo_2.png";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { DarkModeContext } from "../../Context/DarkModeContext";
 
 const Header = () => {
+  const { darkMode } = useContext(DarkModeContext);
+  console.log(darkMode);
   const [showNavbar, setShowNavbar] = useState(false);
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
   };
 
   return (
-    <header className="header">
+    <header className={darkMode ? "header dark-mode" : "header white-mode"}>
       <div className="container">
         <div className="logo">
           <img src={logo} alt="logo" />
         </div>
-        <nav className="navbar">
+        <nav className={darkMode ? "navbar dark-mode" : "navbar white-mode"}>
           <div className={`nav-elements  ${showNavbar && "active"}`}>
             <div>
               <ul>
                 <li>
-                  <NavLink onClick={handleShowNavbar} to={"/"}>
+                  <NavLink
+                    className={darkMode ? "txt-white-mode" : "txt-dark-mode"}
+                    onClick={handleShowNavbar}
+                    to={"/"}
+                  >
                     Home
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink onClick={handleShowNavbar} to={"/about"}>
+                  <NavLink
+                    className={darkMode ? "txt-white-mode" : "txt-dark-mode"}
+                    onClick={handleShowNavbar}
+                    to={"/about"}
+                  >
                     About Me
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink onClick={handleShowNavbar} to={"/projects"}>
+                  <NavLink
+                    className={darkMode ? "txt-white-mode" : "txt-dark-mode"}
+                    onClick={handleShowNavbar}
+                    to={"/projects"}
+                  >
                     Projects
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink onClick={handleShowNavbar} to={"/blogs"}>
+                  <NavLink
+                    className={darkMode ? "txt-white-mode" : "txt-dark-mode"}
+                    onClick={handleShowNavbar}
+                    to={"/blogs"}
+                  >
                     Blogs
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink onClick={handleShowNavbar} to={"/contact"}>
+                  <NavLink
+                    className={darkMode ? "txt-white-mode" : "txt-dark-mode"}
+                    onClick={handleShowNavbar}
+                    to={"/contact"}
+                  >
                     Contact
                   </NavLink>
                 </li>
@@ -82,7 +105,7 @@ const Header = () => {
             </div>
           </div>
         </nav>
-      <DarkMode /> 
+        <DarkMode />
         <div style={{ display: "flex", justifyContent: "flex-end" }}>
           <button className="menu-icon" onClick={handleShowNavbar}>
             {showNavbar ? <IoClose style={{ fontSize: "40px" }} /> : <FaBars />}
