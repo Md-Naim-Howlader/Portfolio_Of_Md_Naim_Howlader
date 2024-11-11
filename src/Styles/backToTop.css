@@ -1,0 +1,36 @@
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #fff;
+  color: #1f6d4f;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.back-to-top:hover {
+  background-color: #1f6d4f;
+  color: #fff;
+}
+
+/* Button initially hidden */
+.back-to-top {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(100px);
+}
+
+/* Button visible after scrolling */
+.back-to-top {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
