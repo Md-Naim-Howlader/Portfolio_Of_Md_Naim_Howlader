@@ -11,7 +11,6 @@ import { DarkModeContext } from "../../Context/DarkModeContext";
 
 const Header = () => {
   const { darkMode } = useContext(DarkModeContext);
-  console.log(darkMode);
   const [showNavbar, setShowNavbar] = useState(false);
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
@@ -21,7 +20,9 @@ const Header = () => {
     <header className={darkMode ? "header dark-mode" : "header white-mode"}>
       <div className="container">
         <div className="logo">
-          <img src={logo} alt="logo" />
+          <NavLink to={"/"}>
+            <img src={logo} alt="logo" />
+          </NavLink>
         </div>
         <nav className={darkMode ? "navbar dark-mode" : "navbar white-mode"}>
           <div
