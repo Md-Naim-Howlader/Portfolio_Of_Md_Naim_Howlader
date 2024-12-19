@@ -25,28 +25,35 @@ const About = () => {
             darkMode ? "about_me text-white" : "about_me txt-black-mod"
           }
         >
-          <h2>Md. Naim Howlader</h2>
+          <h2 style={{ textAlign: "left" }}>Md. Naim Howlader</h2>
           <p>
-            Hello there! I am <strong>Md Naim Howlader</strong>, a Frontend Web
-            Developer with a passion for programming. Pursuing a career as a web
-            developer has been a longstanding aspiration of mine, and I am
-            thrilled to now be working in this field.
+            Assalamu Alaikum! I am <strong>Md Naim Howlader</strong>, a
+            professional Web Developer committed to delivering high-quality and
+            innovative web solutions.
           </p>
           <p>
-            Dedicated React JS Frontend Developer with expertise in{" "}
-            <strong>HTML</strong>, <strong>CSS</strong>,{" "}
-            <strong>JavaScript</strong>, <strong>React.js</strong>,{" "}
-            <strong>SASS</strong> <strong>Tailwind css</strong> and{" "}
-            <strong>Bootstrap</strong>, I ensure that your website will not only
-            meet but exceed W3 standards. My focus is on creating websites that
-            are not only responsive, beautiful, and functional but also easy to
-            access and user-friendly.
+            As a skilled Web developer, I specialize in <strong>HTML</strong>,{" "}
+            <strong>CSS</strong>, <strong>JavaScript</strong>,{" "}
+            <strong>React.js</strong>, <strong>Redux</strong>,{" "}
+            <strong>SASS</strong>, <strong>Tailwind CSS</strong>,{" "}
+            <strong>Bootstrap</strong>, and use
+            <strong> Git</strong> for version control. I prioritize maintaining
+            web accessibility and create websites that are responsive, visually
+            appealing, functional, and accessible, always adhering to W3
+            standards.
           </p>
           <p>
-            With a keen eye for detail and a commitment to creating W3 standard
-            compliant, easy-accessible, and user-friendly websites, I guarantee
-            that your project will be in good hands. Let me know if you have any
-            questions - I look forward to working with you!
+            Currently, I am expanding my expertise by learning{" "}
+            <strong>PHP</strong>, <strong>OOP</strong>, <strong>MySQL</strong>,
+            <strong> MySQLI</strong> and <strong>PDO</strong>, and{" "}
+            <strong>MVC</strong> architecture etc . My future plans include
+            mastering the <strong>Laravel</strong> and others PHP framework to
+            strengthen my backend capabilities.
+          </p>
+          <p>
+            With attention to detail and a commitment to quality, I aim to
+            deliver exceptional websites. Feel free to reach out—I look forward
+            to collaborating with you!
           </p>
           <div style={{ marginTop: "2rem" }}>
             <button onClick={() => navigate("/contact")} className="hire_btn">
