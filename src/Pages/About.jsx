@@ -28,15 +28,15 @@ const About = () => {
           <h2 style={{ textAlign: "left" }}>Md. Naim Howlader</h2>
           <p>
             Assalamu Alaikum! I am <strong>Md Naim Howlader</strong>, a
-            professional Web Developer committed to delivering high-quality and
-            innovative web solutions.
+            professional Front-end Web Developer committed to delivering
+            high-quality and innovative web solutions.
           </p>
           <p>
-            As a skilled Web developer, I specialize in <strong>HTML</strong>,{" "}
-            <strong>CSS</strong>, <strong>JavaScript</strong>,{" "}
-            <strong>React.js</strong>, <strong>Redux</strong>,{" "}
-            <strong>SASS</strong>, <strong>Tailwind CSS</strong>,{" "}
-            <strong>Bootstrap</strong>, and use
+            As a skilled Front-end developer, I specialize in{" "}
+            <strong>HTML</strong>, <strong>CSS</strong>,{" "}
+            <strong>JavaScript</strong>, <strong>React.js</strong>,{" "}
+            <strong>Redux</strong>, <strong>SASS</strong>,{" "}
+            <strong>Tailwind CSS</strong>, <strong>Bootstrap</strong>, and use
             <strong> Git</strong> for version control. I prioritize maintaining
             web accessibility and create websites that are responsive, visually
             appealing, functional, and accessible, always adhering to W3

@@ -21,7 +21,7 @@ const Hero = () => {
               Md. Naim Howlader
             </h1>
             <h2 className={darkMode ? "txt-white-mode" : "txt-black-mode"}>
-              Web Developer{" "}
+              Ftont-end Web Developer{" "}
             </h2>
             <button
               className={
