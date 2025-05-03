@@ -25,36 +25,20 @@ const About = () => {
             darkMode ? "about_me text-white" : "about_me txt-black-mod"
           }
         >
-          <h2 style={{ textAlign: "left" }}>Md. Naim Howlader</h2>
           <p>
-            Assalamu Alaikum! I am <strong>Md Naim Howlader</strong>, a
-            professional Front-end Web Developer committed to delivering
-            high-quality and innovative web solutions.
+             Assalamu Alaikum! I am <strong>Md. Naim Howlader</strong>, a passionate and dedicated <strong>Full-Stack Web Developer</strong>, committed to building high-quality, accessible, and user-friendly web solutions.
           </p>
           <p>
-            As a skilled Front-end developer, I specialize in{" "}
-            <strong>HTML</strong>, <strong>CSS</strong>,{" "}
-            <strong>JavaScript</strong>, <strong>React.js</strong>,{" "}
-            <strong>Redux</strong>, <strong>SASS</strong>,{" "}
-            <strong>Tailwind CSS</strong>, <strong>Bootstrap</strong>, and use
-            <strong> Git</strong> for version control. I prioritize maintaining
-            web accessibility and create websites that are responsive, visually
-            appealing, functional, and accessible, always adhering to W3
-            standards.
+             On the frontend, I specialize in <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>React.js</strong>, <strong>Redux</strong>, <strong>SASS</strong>, <strong>Tailwind CSS</strong>, <strong>Bootstrap</strong>, and use <strong>Git</strong> for version control. I follow <strong>W3C</strong> standards and best practices to create websites that are responsive, visually appealing, and accessible to all users.
+          <p>
+            On the backend, I am continuously growing my skills in <strong>PHP</strong>, <strong>Object-Oriented Programming (OOP)</strong>, <strong>MySQL</strong> (including MySQLi and PDO), and <strong>MVC</strong> architecture. My goal is to master <strong>Laravel</strong> and other modern PHP frameworks to build scalable and secure web applications.
           </p>
           <p>
-            Currently, I am expanding my expertise by learning{" "}
-            <strong>PHP</strong>, <strong>OOP</strong>, <strong>MySQL</strong>,
-            <strong> MySQLI</strong> and <strong>PDO</strong>, and{" "}
-            <strong>MVC</strong> architecture etc . My future plans include
-            mastering the <strong>Laravel</strong> and others PHP framework to
-            strengthen my backend capabilities.
+              With strong attention to detail and a drive for continuous learning, I aim to deliver complete web experiences—from clean backend logic to interactive frontend design.
           </p>
-          <p>
-            With attention to detail and a commitment to quality, I aim to
-            deliver exceptional websites. Feel free to reach out—I look forward
-            to collaborating with you!
-          </p>
+            <p>
+              I’m always open to exciting opportunities and collaborations.
+            </p>
           <div style={{ marginTop: "2rem" }}>
             <button onClick={() => navigate("/contact")} className="hire_btn">
               Hire Me
