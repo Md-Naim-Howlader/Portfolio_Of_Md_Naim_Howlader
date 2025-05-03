@@ -37,7 +37,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Resume
+                Download Resume
               </a>
             </button>
           </div>
