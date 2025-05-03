@@ -32,7 +32,8 @@ const Hero = () => {
             >
               <a
                 className="text-white"
-                href="https://drive.google.com/file/d/1ARG3vAVocLcxdp0J36T1p_Bkahe1Tf7g/view?usp=sharing"
+                 href="https://drive.google.com/uc?export=download&id=1ARG3vAVocLcxdp0J36T1p_Bkahe1Tf7g"
+                download
                 target="_blank"
                 rel="noopener noreferrer"
               >
