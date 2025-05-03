@@ -89,7 +89,7 @@ const Footer = () => {
         </div>
         <div className="copyright_area">
           <p className={darkMode ? "text-white" : "txt-dark-mode"}>
-            Copyright &copy; 2024 Md. Naim Howlader
+            Copyright &copy; 2025 Md. Naim Howlader
           </p>
         </div>
       </div>
