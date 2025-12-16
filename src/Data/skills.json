@@ -21,18 +21,43 @@
   },
   {
     "id": 5,
+    "name": "Redux",
+    "icon": "images/skills/redux.png"
+  },
+  {
+    "id": 6,
     "name": "SASS",
     "icon": "images/skills/sass.png"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Bootstrap5",
     "icon": "images/skills/bootstrap.png"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Tailwind CSS",
     "icon": "images/skills/tailwind-img.png"
+  },
+  {
+    "id": 9,
+    "name": "PHP",
+    "icon": "images/skills/php.png"
+  },
+  {
+    "id": 10,
+    "name": "MySQL",
+    "icon": "images/skills/mysql.png"
+  },
+  {
+    "id": 11,
+    "name": "Laravel",
+    "icon": "images/skills/laravel.png"
+  },
+  {
+    "id": 12,
+    "name": "Figma",
+    "icon": "images/skills/figma.png"
   },
   {
     "id": 8,
